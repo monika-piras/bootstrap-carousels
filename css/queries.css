@@ -1,0 +1,58 @@
+@media (max-width: 1300px) {
+    .carousel-inner {
+        box-shadow: 0 0 4rem rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        height: 24rem;
+    }
+}
+
+@media (max-width: 960px) {
+    .carousel-inner {
+        height: auto;
+    }
+
+    .carousel-caption {
+        margin-bottom: -2rem;
+    }
+    .carousel-indicators {
+        margin-bottom: -4rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-right: -4rem;
+        margin-left: -4rem;
+    }
+}
+
+@media (max-width: 576px) { 
+    
+    .heading {
+        margin-top: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+        
+    .carousel {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+        
+    .carousel-inner {
+        height: auto;
+    }
+       
+    .carousel-indicators {
+        margin-bottom: -3rem;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        margin-right: -3rem;
+        margin-left: -3rem;
+    }
+}
